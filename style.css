@@ -1,63 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
 
-
-
-
-
-
-body {
-  margin: 0;
-  font-family: Garamond, Helvetica, sans-serif
-}
-
-article {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-nav {
-  min-height: 50px;
-  background: #5995da;
-}
-
-header {
-  background: #b2d6ff;
-}
-
-main {
-  padding: 1rem;
-  background: #eaedf0;
-}
-
-#signup {
-  background: #d6e9fe;
-}
-
-#feature-1 {
-  background: #f5cf8e;
-}
-
-#feature-2 {
-  background: #f09a9d;
-}
-
-#feature-3 {
-  background: #c8c6fa;
-}
-
-header, section {
-  flex: 50vw;
-  min-height: 200px;
-}
-
-header, section, nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header, section, nav, main {
-  flex: 100%;
-}
 
 
 @media screen and (min-width: 500px) and (max-width: 899px) {
@@ -68,19 +10,168 @@ header, section, nav, main {
 }
 
 @media screen and (min-width: 900px) {
-  .feature {
-      flex: calc(100% / 3);
-      min-height: 50vh;
-  }
-  #signup {
-      order: 1;
-      min-height: auto;
-      height: 150px; 
-  }
-  header {
-      height: 35vh;
-  }
-  main {
-      order: 2;
-  }
+
+}
+
+/* {
+    box-sizing: border-box:
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#initials {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+
+}
+
+nav a {
+    font-size: 1rem;
+    font-family: Lato, sans-serif;
+    color: #2b3636;
+    text-decoration: none;
+    margin: 0 1.5rem;
+}
+
+nav a:hover {
+    font-family: Lato, sans-serif;
+    color: #6e8b8f;
+    text-decoration: underline;
+    font-weight: 600;
+    margin: 0 1.5rem;
+}
+
+nav a:visited {
+    font-family: Lato, sans-serif;
+    color: #5e797c;
+    text-decoration: underline;
+    margin: 0 1.5rem;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    padding: 1rem;
+    background: url('images/ocean.jpg') #8980c2 no-repeat bottom;
+    background-size: cover;
+}
+
+#homepage img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    }
+
+#homepage h1 {
+    font-family: 'Bree Serif', serif;
+    color: rgb(0, 83, 94);
+    font-size: 2.25rem;
+    font-weight: normal;
+    margin: 1rem 0;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+}
+
+.btn-purple {
+    color: #8980c2;
+    border-color: #8980c2;
+}
+
+.btn-white {
+    color: white;
+    border-color: white;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    justify-content: space-around;
+}
+
+main h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 1rem;
+}
+
+/* Main articles */
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 0 2rem;
+}
+
+main article img {
+    /* display: none; */
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #8980c2; 
+    margin-bottom: 1rem;
+}
+
+main article h3 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    color: #8980c2;
+}
+
+main article p {
+    margin: 1rem 0;
+}
+
+/* Social section */
+#social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #8980c2;
+    padding: 1rem 0;
+}
+
+#social-links p {
+    font-family: 'Bree Serif', serif;
+    margin: 0 0 1rem;
+    color: white;
+}
+
+#social-links div div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;   
 }
