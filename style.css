@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
 
-
+@media only screen and (max-width: 480px)
 
 @media screen and (min-width: 500px) and (max-width: 899px) {
   section {
@@ -24,7 +24,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+/* Header --------------------------------------------------*/
 header {
     display: flex;
     justify-content: space-between;
@@ -61,33 +61,41 @@ nav a:visited {
     text-decoration: underline;
     margin: 0 1.5rem;
 }
+/*header end-------------------------------------------------*/
 
-#homepage {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end;
-    object-fit: cover;
-    padding: 1rem;
-    background: url('images/ocean.jpg') #8980c2 no-repeat bottom;
-    background-size: cover;
+/*homepage --------------------------------------------------*/
+
+#container {
+    position:relative;
 }
 
-#homepage img {
-  width: 25vw;
-  height: 25vw;
-  object-fit: cover;
-  border-radius: 50%;
+#ngungun {
+    position:absolute;
+    height: 50%;
+    width: 100%;
+}
+
+#bush {
+    justify-content: flex-end;
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
 }  
 
-#homepage h1 {
+#name {
+    justify-content: flex-end;
+    position: absolute;
     font-family: 'Bree Serif', serif;
-    color: rgba(24, 24, 23, 0.836);
-    font-size: 2.25rem;
-    font-weight: normal;
+    color: rgba(8, 37, 39, 0.788);
+    font-size: 1.5rem;
+    font-weight: bold;
     margin: 1rem 0;
 }
+/*homepage end-----------------------------------------------*/
 
-/* Button */
+
+/* homepage TEXT--------------------------------------------------*/
 .button {
     display: inline-block;
     font-family: Lato, sans-serif;
@@ -97,14 +105,13 @@ nav a:visited {
     padding: 0.5rem 1rem;
 }
 
-.btn-purple {
-    color: #8980c2;
-    border-color: #8980c2;
+.btn-green {
+    color: #009407;
+    border-color: #009407;
 }
 
-.btn-white {
-    color: white;
-    border-color: white;
+.btn-green:hover{
+    background-color: #0024022d;
 }
 
 /* Main content */
@@ -117,35 +124,19 @@ main {
 
 main h2 {
     font-family: 'Bree Serif', serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     width: 100%;
     text-align: center;
-    margin: 0 0 1rem;
 }
 
 /* Main articles */
+
 main article {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
     padding: 0 2rem;
-}
-
-main article img {
-    /* display: none; */
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid #8980c2; 
-    margin-bottom: 1rem;
-}
-
-main article h3 {
-    font-family: 'Bree Serif', serif;
-    font-size: 1rem;
-    font-weight: normal;
-    text-align: center;
-    color: #8980c2;
 }
 
 main article p {
@@ -157,23 +148,26 @@ main article p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #8980c2;
+    background: #5d8b31;
     padding: 1rem 0;
 }
+#social-links a:hover {
+opacity: 80%;
+}
+
+/* MAYBE NOT NEEDED 
+#social-links a:visited {
+opacity: 20%;
+}
+*/
 
 #social-links p {
     font-family: 'Bree Serif', serif;
     margin: 0 0 1rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #social-links div div {
     display: flex;
     justify-content: space-between;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1rem;   
 }
