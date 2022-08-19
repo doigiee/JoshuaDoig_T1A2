@@ -66,20 +66,22 @@ nav a:visited {
     display: flex;
     flex-direction: column;
     align-items:flex-end;
+    object-fit: cover;
     padding: 1rem;
     background: url('images/ocean.jpg') #8980c2 no-repeat bottom;
     background-size: cover;
 }
 
 #homepage img {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 50%;
-    }
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+  border-radius: 50%;
+}  
 
 #homepage h1 {
     font-family: 'Bree Serif', serif;
-    color: rgb(0, 83, 94);
+    color: rgba(24, 24, 23, 0.836);
     font-size: 2.25rem;
     font-weight: normal;
     margin: 1rem 0;
