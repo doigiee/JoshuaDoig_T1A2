@@ -1,19 +1,23 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Ubuntu&display=swap")
 */
 
-@media screen and (min-width: 500px) and (max-width: 899px) {
-  section {
-  height: 50vw;
-    flex: 50%;
+@media screen and (min-width: 700px) 
+{
+  #myface { 
+  width: 1vw;
+  height: 1vw;
   }
 }
 
-@media screen and (min-width: 900px) {
+@media only screen and (min-width: 800px) {
+  p { font-size: 1rem;
+
+  }
 }
 
 * {
   font-family: "Courier New", Courier, monospace;
-  box-sizing: border-box;
+
   margin: 0;
   padding: 0;
 }
@@ -21,6 +25,7 @@
 
 
 /* Header*/
+
 
 #myface {
   border-style: double;
@@ -71,7 +76,9 @@ nav a:visited {
 /*header end-------------------------------------------------*/
 
 /*homepage*/
+
 p {
+  max-width: 60rem;
   margin: 0.5rem;
   padding: 1rem;
 }
@@ -88,16 +95,13 @@ h1 {
 }
 
 main p {
+  max-width: 60rem;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
 .button {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
