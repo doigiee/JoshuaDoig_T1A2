@@ -18,39 +18,22 @@
   padding: 0;
 }
 
-.container { }
-  /*position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;  
-  
-}  
-
-.container::before {
-  content "";
-  position: absolute;
-  background-image: url('https://placekitten.com/images/');
-  background-size: cover;
-  background position: top center;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  opacity: 50%;
-
-  }
-*/
-
-body {
-display: flex;
-flex-direction: column; 
-padding-top: 0px;
-}
-
 
 
 /* Header*/
+
+#myface {
+  border-style: double;
+  border-width: 15px;
+  border-color: rgba(158, 108, 108, 0.829);
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  margin-top: 5vh;
+  margin-bottom: 3rem;
+  margin-left: 20vw;
+  align-content: center;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -88,43 +71,19 @@ nav a:visited {
 /*header end-------------------------------------------------*/
 
 /*homepage*/
-
-
-/*responsiveness
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-
-  #name {
-    height: 100vw;
-    width: 100vw;
-  }
-
-  #bush {
- height: 100vw;
-    width: 100vw;
-  }
-} */
-
-#bush {
-  float: right;
-  border-style: double;
-  border-width: 15px;
-  border-color: rgba(158, 108, 108, 0.829);
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
+p {
+  margin: 0.5rem;
+  padding: 1rem;
 }
  
-#name {
-  float: right;
+h1 {
   color: rgba(163, 36, 36, 0.719);
   font-size: 3rem;
   font-weight: bold;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   margin-left: 5rem;
-  padding-right: 9rem;
+  padding-right: 5rem;
 
 }
 
@@ -134,58 +93,55 @@ main p {
   font-weight: 700;
 }
 
-main {
-  display: flex;
-  padding: 3rem;
-  margin: 3rem;
-  justify-content: space-around;
-}
-
 .button {
   display: inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
   border: 2.9px solid;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .btn-startjourney {
   color: #940000;
   border-color: #940000;
+  
+  
 }
 
 .btn-startjourney:hover {
   background-color: #24000023;
 }
 
-
-
-main h2 {
-  font-size: 3rem;
+h2 {
+  font-size: 2.5rem;
   width: 100%;
   text-align: center;
+  margin-top: 10vw;
 }
 
 main article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
-  padding: 0 2rem;
+  padding: 2rem;
 }
 
 main article p {
-  margin: 1rem 0;
+  margin: 2rem;
 }
 
 /* Social section */
 #social-links {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem 0;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 #social-links a:hover {
   opacity: 80%;
@@ -193,8 +149,11 @@ main article p {
 
 #social-links p {
   position:relative;
-  margin: 0 0 1rem;
   font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 5rem;
+  margin-top: 2rem;
 }
 
 #social-links div div{
@@ -203,11 +162,17 @@ main article p {
   justify-content: space-between;
   align-items: center;
 }
+/* aboutme*/ 
+/* media query for modible to display vertically*/ 
 
-/* aboutme*/
+@media only screen and (max-width: 700px) {
 
-.gallery {
+    .gallery {
+      display: none;
+    }
+}
 
+  .gallery { 
   width: 1000px;
   margin: 10px;
   position: relative;
@@ -264,18 +229,10 @@ main article p {
 }
 
 
-/*blog*/
 
-#blog h2 {
-  font-size: 30px;
-  font-weight: 600;
-  }
+/*Blogs*/
 
-#blog p {
-  font-size: 18px;
-  font-weight: 600;
-  }
-}
-  font-size: 700px;
-    font-weight: 700;
+.pokemonimg {
+  width: 100%;
+    height: auto;
     }
