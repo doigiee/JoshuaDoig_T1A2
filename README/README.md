@@ -17,23 +17,13 @@ My portfolio contains numerous pages filled with navigatable features and design
 - GITHUB - publishing repositories
 - Netlify - publishing site
 
-## Info: Home page
-The hompage serves as the hub for this portolio, connecting all main pages.
-
-## Info: About me 
-This page serves to showcase my personality and to catch the eyes of viewers.
-
-## Info: Projects
-This is a page dedicated to show the recent projects i've been working on.
-
-## Info: Blogs
-Blogs was created to provide recruiters a place to connect with me and other interested developers.
-
-## Info: Resume
-Resume is a direct link to my education and work history.
-
-## Info: Sitemap and Wireframes
-Sitemap displays a general overview of my portfolio and a way to navigate by seeing how it's all connected and Wiredframes are useful as they show you the viewer how my Portfolio displays on different devices.
+## Information for all Pages
+- The hompage serves as the hub for this portolio, connecting all main pages.
+- The AboutMe page serves to showcase my personality and to catch the eyes of viewers.
+- The Projects page is dedicated to show the recent projects i've been working on.
+- The Blogs page was created to provide recruiters a place to connect with me and other interested developers.
+- My Resume has been connected on the Homepage and in the Education section and is a direct link to my education and work history.
+- Sitemap and Wireframes have been added as sitemap displays a general overview of my portfolio and a way to navigate by seeing how it's all connected and Wireframes are useful as they show you the viewer how my Portfolio displays on different devices.
 
 ## Sitemap
 Created in CLIP STUDIO
@@ -44,10 +34,13 @@ Created in CLIP STUDIO
 ### Homepage
 ![](Screenshots/Homepage.jpg)
 ### AboutMe page
-![](Screenshots/Aboutme.jpg)
+![](Screenshots/AboutMe.jpg)
 ### Projects page
 ![](Screenshots/Projects.jpg)
 ### Blogs page
 ![](Screenshots/Blogs.jpg)
 ### Blogs content
 ![](Screenshots/Blogsall.jpg)
+
+# Final Notes
+## Thank You for Reading and Viewing My Portfolio.
