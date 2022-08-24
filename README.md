@@ -11,3 +11,5 @@ The portfolio I created demonstrates the content which I have been learning thro
 My portfolio contains numerous pages filled with navigatable features and design. The home and about me pages serves as the focal point which connect to my blog, projects and resume pages and changes appearance with the hover function. I've also made the website and all linking pages resposive to thus make my portfolio useable for pc, phone and laptop users and achieved this through the mobile first approach.
 
 ### Sitemap
+![](Sitemap/Sitemap.jpg) 
+https://github.com/doigiee/JoshuaDoig_T1A2/blob/main/Sitemap/Sitemap.jpg
